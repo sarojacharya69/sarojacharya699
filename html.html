@@ -1,0 +1,24 @@
+
+function setup() {
+  createCanvas(600,400);
+  let x = random(width);
+  Let y = random(height);
+  let r = random(10,50);
+  let b = new Bubble(x,y,r);
+  bubbles.push(b);
+
+}
+function mousepressed() {
+	let r = random(10,50);
+	 b = new Bubble(mouseX,mouseY,r);
+	 bubbles.push(b);
+}
+function draw() {
+  // put drawing code here
+ background(255, 204, 100);
+ circle(30, 30, 20);
+ ellips(200,200,50,50)
+ 
+ fill(200,250,200);
+ rect(400,100,50,50);
+}
